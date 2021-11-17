@@ -1,7 +1,5 @@
 #Visualizacion de informacion - 11 de Noviembre de 2021
-install.packages('tyidiverser', 'gapminder', 'nycflights13', 'Lahman')
-library(tyidiverser, gapminder, nycflights13, Lahman)
-
+pacman::p_load(tyidiverser, gapminder, nycflights13, Lahman)
 # ---- tidyverse 1.3.1 ----
 # v ggplot2 3.3.5     v purrr   0.3.4
 # v tibble  3.1.4     v dplyr   1.0.7
